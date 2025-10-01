@@ -1,0 +1,76 @@
+exit 
+db.getUsers()
+use tarabayt
+exit
+db.test.insertOne({name: "test"})
+db.runCommand({connectionStatus: 1})
+use terabayt
+db.getUsers()
+use admin 
+ db.getUsers()
+use admin
+db.getUsers()
+})
+  roles: [ { role: "readWrite", db: "terabayt" } ]
+  pwd: "terabaytPass",
+  user: "terabaytUser",
+use terabayt
+1
+use terabayt 
+use terabayt
+clear
+show dbs
+docker inspect mongodb1
+use terabayt
+db.products.deleteMany({})
+});
+  roles: [{ role: "readWrite", db: "terabayt" }]
+  pwd: "admin123",
+  user: "admin",
+db.products.find()
+})
+  createdAt: new Date()
+  description: "A18 Pro chip",
+  badge: "Yangi",
+  image: "https://example.com/iphone16.jpg",
+  oldPrice: 13990000,
+  price: 12990000,
+  category: "iphone", 
+  name: "iPhone 16 Pro",
+db.products.insertOne({
+use terabayt
+show dbs
+  price: 100000
+  category: "test",
+  name: "Test Product",
+db.products.insertOne({
+})
+  price: 100000
+  category: "test",
+  name: "Test Product",
+db.products.insertOne({
+})
+  price: 100000
+  category: "test",
+  name: "Test Product",
+db.products.insertOne({
+use terabayt
+stop
+cd desktop
+quut 
+docker ps
+clear
+show dbs
+1
+test
+clear
+db
+db.users.find()
+db.users.insertOne({ name: "Jamoliddin", age: 25 })
+admin
+show dbs
+222
+cd
+3
+2
+1
