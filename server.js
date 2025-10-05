@@ -71,7 +71,13 @@ console.log('📍 MONGODB_URI:', process.env.MONGODB_URI ? 'Mavjud' : 'Yo\'q');
 console.log('📍 NODE_ENV:', process.env.NODE_ENV || 'development');
 
 // MongoDB URI
-const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/terabayt';
+// const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/terabayt';
+// console.log('🔗 MongoDB URI:', mongoUri);
+if (!process.env.MONGODB_URI) {
+  console.error('❌ MONGODB_URI environment variable is missing!');
+  process.exit(1); // Dasturni to‘xtating, agar URI yo‘q bo‘lsa
+}
+const mongoUri = process.env.MONGODB_URI; // Faqat .env dan oling
 console.log('🔗 MongoDB URI:', mongoUri);
 
 // MongoDB ga ulanish
