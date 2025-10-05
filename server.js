@@ -5,7 +5,8 @@ const cors = require('cors');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-require('dotenv').config();
+require('dotenv').config({ path: './.env' });
+// require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
